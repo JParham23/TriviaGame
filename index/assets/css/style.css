@@ -1,0 +1,50 @@
+body{
+	background: url('../images/cloudBG.jpeg');
+	font-family: 'Raleway', sans-serif;
+	font-size: 25px;
+}
+
+header{
+	margin-bottom: 50px; align-content: center; 
+}
+
+.btn-primary,.reset{
+	background-color: #9a9ee6;
+	color: rgb(29, 20, 20);
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+	font-size: 30px;
+	padding: 20px;
+	margin-top: 100px;
+}
+.btn-primary:hover, .reset:hover{
+	background-color: #242a97;
+}
+
+.container{
+	margin-top: 50px;
+	text-align: center;
+	height: 100%;
+	width: 700px;
+}
+
+h2, #message, #finalMessage{
+	font-family: Sigmar One;
+}
+
+.thisChoice:hover{
+	background-color: #202364;
+	color: rgb(218, 191, 191);
+	padding: 10px;
+}
+
+#gif{
+	margin: 30px;
+}
+
+@media screen and (max-width:640px){
+	.container{
+		width: 500px;
+		margin-top: 200px;
+		size: 200%;
+	}	
+}
