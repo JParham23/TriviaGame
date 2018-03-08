@@ -1,17 +1,17 @@
 body{
-	background: url('../images/cloudBG.jpeg');
+	background: gray ;
 	font-family: 'Raleway', sans-serif;
 	font-size: 25px;
 }
 
 header{
-	margin-bottom: 50px; align-content: center; 
+	margin-bottom: 0px; text-align: center; font-family: fantasy; font-size: 50px
 }
 
 .btn-primary,.reset{
 	background-color: #9a9ee6;
 	color: rgb(29, 20, 20);
-	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 	font-size: 30px;
 	padding: 20px;
 	margin-top: 100px;
@@ -37,9 +37,6 @@ h2, #message, #finalMessage{
 	padding: 10px;
 }
 
-#gif{
-	margin: 30px;
-}
 
 @media screen and (max-width:640px){
 	.container{

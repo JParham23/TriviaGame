@@ -42,7 +42,7 @@ var triviaQuestions = [{
 	
 }];
 
-var gifArray = ['question1', 'question2', 'question3', 'question4', 'question5', 'question6', 'question7', 'question8', 'question9', 'question10'];
+
 var currentQuestion; var correctAnswer; var incorrectAnswer; var unanswered; var seconds; var time; var answered; var userSelect;
 var messages = {
 	correct: "Yes, that's right!",
@@ -76,7 +76,6 @@ function newGame(){
 function newQuestion(){
 	$('#message').empty();
 	$('#correctedAnswer').empty();
-	$('#gif').empty();
 	answered = true;
 	
 	//sets up new questions & answerList
