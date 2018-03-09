@@ -1,5 +1,5 @@
 body{
-	background: gray ;
+	background-image: url(https://binged.it/2IfgzTN) ;
 	font-family: 'Raleway', sans-serif;
 	font-size: 25px;
 }
@@ -20,6 +20,10 @@ header{
 	background-color: #242a97;
 }
 
+#question {
+ 
+
+}
 .container{
 	margin-top: 50px;
 	text-align: center;
